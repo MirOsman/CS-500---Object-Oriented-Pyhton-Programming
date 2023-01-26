@@ -1,0 +1,19 @@
+<mxfile host="65bd71144e">
+    <diagram id="qoACydoq5MbiZO5zvkmp" name="Page-1">
+        <mxGraphModel dx="734" dy="310" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="MyInteger" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="20" width="180" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="--Value : int " style="text;strokeColor=#432D57;fillColor=#76608a;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#ffffff;" vertex="1" parent="2">
+                    <mxGeometry y="30" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="+ Get value (self) : int&#10;+ Set value(self, value : int)&#10;+ is even (self)&#10;+ is odd(self)&#10;+ is prime (self)&#10;+ __str__(self,other: MyInteger)&#10;+__eq__(self,other : MyInteger)&#10;+ add(self, other : MyInteger)&#10;+sub(self,other, MyInteger)&#10;+ __gt__(self,other : MyInteger)&#10;&#10;&#10;&#10; " style="text;fillColor=#647687;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="2">
+                    <mxGeometry y="60" width="180" height="160" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

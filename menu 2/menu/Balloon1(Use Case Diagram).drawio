@@ -1,0 +1,70 @@
+<mxfile host="65bd71144e">
+    <diagram id="xRCqVBf9atTuqtYYrg57" name="Page-1">
+        <mxGraphModel dx="699" dy="295" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;b&gt;Nancy&lt;br&gt;(Balloon Twister)&lt;/b&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="80" width="80" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="2" target="27" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="348.24" y="130.33999999999997" as="sourcePoint"/>
+                        <mxPoint x="509.9999999999982" y="45" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="2" target="29" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="348" y="130.57999999999998" as="sourcePoint"/>
+                        <mxPoint x="515.0000000000005" y="235" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1" target="30" source="2">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="350" y="130" as="sourcePoint"/>
+                        <mxPoint x="525" y="345" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="2" target="31" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="349.76" y="130.27999999999997" as="sourcePoint"/>
+                        <mxPoint x="514.9999999999982" y="460" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="" style="endArrow=none;html=1;entryX=0.024;entryY=0.315;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" target="32" edge="1" source="2">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="350" y="130" as="sourcePoint"/>
+                        <mxPoint x="500" y="590" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.024;entryY=0.388;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="2" target="28" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="349.76" y="130.82" as="sourcePoint"/>
+                        <mxPoint x="500.0000000000018" y="135" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+                    <mxGeometry x="280" width="390" height="750" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="&lt;span&gt;Schedule&lt;/span&gt;&lt;span&gt;(Customer)&lt;/span&gt;&lt;span&gt;(Holiday)&lt;br&gt;- Schedule balloon twister by asking user customer name and holiday name&lt;br&gt;&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="26">
+                    <mxGeometry x="150" y="10" width="200" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="&lt;span&gt;Cancel&lt;/span&gt;&lt;span&gt;(Customer)&lt;/span&gt;&lt;span&gt;(Holiday)&lt;br&gt;- delete balloon twister reservations&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="26">
+                    <mxGeometry x="165" y="120" width="195" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="&lt;span&gt;Status&lt;/span&gt;&lt;span&gt;(BalloonTwister)&lt;/span&gt;&lt;span&gt;or&lt;/span&gt;&lt;span&gt;(Holiday)&lt;br&gt;- ask user to provide balloon twister or holiday name&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="26">
+                    <mxGeometry x="150" y="210" width="220" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="&lt;span&gt;Quit&lt;br&gt;- Save the data to files and then terminate program&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="26">
+                    <mxGeometry x="200" y="320" width="160" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="&lt;span&gt;Signup&lt;/span&gt;&lt;span&gt;(Ballon Twister)&lt;br&gt;- Provide new name of balloon twister who is signing up&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="26">
+                    <mxGeometry x="200" y="430" width="180" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="&lt;span&gt;Dropout&lt;/span&gt;&lt;span&gt;(Balloon Twister)&lt;br&gt;- name of balloon twister who longer requires agent services.&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="26">
+                    <mxGeometry x="150" y="560" width="195" height="110" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
